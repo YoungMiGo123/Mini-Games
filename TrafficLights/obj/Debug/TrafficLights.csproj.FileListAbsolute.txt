@@ -1,0 +1,38 @@
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.exe.config
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.exe
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.pdb
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.csprojResolveAssemblyReference.cache
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLightsMainWindow.baml
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLightsMainWindow.g.cs
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\App.g.cs
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights_MarkupCompile.cache
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.g.resources
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.Properties.Resources.resources
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.Cache
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.exe
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.exe.config
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\bin\Debug\TrafficLights.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.csprojResolveAssemblyReference.cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLightsMainWindow.baml
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLightsMainWindow.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\App.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights_MarkupCompile.cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.g.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.Properties.Resources.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.Cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\TrafficLights\obj\Debug\TrafficLights.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\bin\Debug\TrafficLights.exe.config
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\bin\Debug\TrafficLights.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\bin\Debug\TrafficLights.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLightsMainWindow.baml
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLightsMainWindow.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\App.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights_MarkupCompile.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights.g.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights.Properties.Resources.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.Cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\TrafficLights\obj\Debug\TrafficLights.pdb

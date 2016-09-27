@@ -1,0 +1,13 @@
+﻿<Window x:Class="PongGame.PongMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="487.237" Width="525" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Grid>
+        <Canvas HorizontalAlignment="Stretch" Margin="14,10,10,23" Name="canvas1" VerticalAlignment="Stretch" Background="#FFC0F2C0" >
+                           
+            <Image x:Name="ball" Height="54" Canvas.Left="319" Canvas.Top="69" Width="48" Source="ball.png" Stretch="Fill"  />
+      
+            <Button x:Name="paddle" Canvas.Left="212" Canvas.Top="235" Width="75" Height="24" />
+        </Canvas>
+    </Grid>
+</Window>

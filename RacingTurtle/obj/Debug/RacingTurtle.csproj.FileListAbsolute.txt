@@ -1,0 +1,30 @@
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\bin\Debug\RacingTurtle.exe.config
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\bin\Debug\RacingTurtle.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\bin\Debug\RacingTurtle.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\bin\Debug\ThinkLib.dll
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\bin\Debug\ThinkLib.xml
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.csprojResolveAssemblyReference.cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingMainWindow.baml
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingMainWindow.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\App.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle_MarkupCompile.cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.g.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.Properties.Resources.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.csproj.GenerateResource.Cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\RacingTurtle\obj\Debug\RacingTurtle.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\bin\Debug\RacingTurtle.exe.config
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\bin\Debug\RacingTurtle.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\bin\Debug\RacingTurtle.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\bin\Debug\ThinkLib.dll
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\bin\Debug\ThinkLib.xml
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.csprojResolveAssemblyReference.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingMainWindow.baml
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingMainWindow.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\App.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle_MarkupCompile.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.g.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.Properties.Resources.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.csproj.GenerateResource.Cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\RacingTurtle\obj\Debug\RacingTurtle.pdb

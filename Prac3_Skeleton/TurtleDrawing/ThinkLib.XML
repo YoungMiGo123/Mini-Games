@@ -1,0 +1,543 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThinkLib</name>
+    </assembly>
+    <members>
+        <member name="T:ThinkLib.Footprint">
+            <summary>
+            This encapsulates a single footprint from a turtle.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Footprint.Position">
+            <summary>
+            Gets the position of the footprint.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Footprint.theUIElem">
+            <summary>
+            Gets the UIElement associated with this footprint.
+            </summary>
+        </member>
+        <member name="T:ThinkLib.FootprintCollection">
+            <summary>
+            Manages a collection of footprints, ensuring that additions or deletions from the list also 
+            add or delete the UI component of the footprint from the playground.   Any methods that
+            work on Lists will also work here. 
+            </summary>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.#ctor(System.Windows.Controls.Canvas)">
+            <summary>
+            Manages a list of Footprints, ensuring that additions or deletions from the list also 
+            add or delete the UI component of the Footprint from the playground.
+            </summary>
+            <param name="playground">The Playground on which the footprints are displayed.</param>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.IndexOf(ThinkLib.Footprint)">
+            <summary>
+            Searches for the specific Footprint and returns the index of the first occurrence in the collection.
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.Insert(System.Int32,ThinkLib.Footprint)">
+            <summary>
+            Inserts a Footprint into the collection at the specified index position.
+            </summary>
+            <param name="index"></param>
+            <param name="item"></param>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the item at the specified index position.
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.Add(ThinkLib.Footprint)">
+            <summary>
+            Add a new footprint to the end of the collection.
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.Contains(ThinkLib.Footprint)">
+            <summary>
+            Determines whether the item is in the collection of footprints.
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.CopyTo(ThinkLib.Footprint[],System.Int32)">
+            <summary>
+            Copy a collection to an array.
+            </summary>
+            <param name="array">The array to copy the items to.</param>
+            <param name="arrayIndex">The index at which copying is to start.</param>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.Remove(ThinkLib.Footprint)">
+            <summary>
+            Removes the specified Footprint from the collection.
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection of footprints.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection of footprints.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.FootprintCollection.Clear">
+            <summary>
+            Removes all footprints from the collection.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.FootprintCollection.Item(System.Int32)">
+            <summary>
+            Gets or sets the Footprint at the specified index.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ThinkLib.FootprintCollection.Count">
+            <summary>
+            Gets the number of Footprints in the collection.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.FootprintCollection.IsReadOnly">
+            <summary>
+            Returns false
+            </summary>
+        </member>
+        <member name="T:ThinkLib.Tester">
+            <summary>
+            Encapsulates a very simple "procedural" test framework.  
+            There is no setup, teardown, etc. that one usually finds, and just two static methods are provided:
+                 TestEq tests for two (deep) equal values
+                 TestFailEq succeeds if an Eq test fails.
+                 
+            A non-modal form showing the test results is created and shown on each use when it does not already exist, .  
+            or was closed by the user.
+            </summary>
+            <summary>
+            Tester
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Tester.TestEq``2(System.Func{``0},``1,System.Double)">
+            <summary>
+            Test if two objects are (approximately) equal.
+            </summary>
+            <param name="actual"></param>
+            <param name="expected"></param>
+            <param name="absTolerance">If two numbers are within this tolerance, the test will pass. absTolerance is ignored if the other arguments are not numbers.</param>
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq``2(System.Func{``0},``1,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Int32,System.Int32)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Double,System.Double,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Single,System.Double,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Double,System.Single,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Single,System.Single,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.String,System.String)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Char,System.Char)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Boolean,System.Boolean)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Int32[],System.Int32[])">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Double[],System.Double[],System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Single[],System.Double[],System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Double[],System.Single[],System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Single[],System.Single[],System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.String[],System.String[])">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Char[],System.Char[])">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq(System.Boolean[],System.Boolean[])">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq``2(``0,``1,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq``1(System.Object,``0,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.TestFailEq``1(``0,System.Object,System.Double)">
+            <summary>
+            Test passes if TestEq would fail on these arguments. 
+            </summary> 
+        </member>
+        <member name="M:ThinkLib.Tester.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ThinkLib.Turtle">
+            <summary>
+             This class encapsulates a Logo-like turtle with members like Visible, BrushDown, Brush, etc.
+             As the turtle goes about its business it leaves tracks and footprints in the playground.
+             
+             We use a retained-mode graphics system with widgets that represent each footprint or polyline.
+             The playground is a Canvas: its Children are UIElements, so for rendering purposes we just
+             drop each new footprint or Path into the Children of the playground.
+             
+             Drawing sequences and footprints are represented as Path objects (a Path isa UIElement). 
+             The turtle can also Stamp text footprints onto the playground.  We keep local lists of all the 
+             tUIElements hat this particular turtle has created so that we can Clear or Reset the turtle or 
+             selectively erase its footprints, etc.  This also happens automatically when the turtle is Disposed.
+             
+             Other turtles can also play in the playground, and other UIElements can also exist independently
+             on the playground canvas.   This package provides no help for managing those.  
+             But we can also Stamp a UIElement onto the playground via a turtle.  The stamped element then 
+             becomes a Footprint owned by the turtle (for purposes of its lifetime management), and additionally 
+             will be oriented / rotated / positioned etc. according to the turtle's current heading and position.
+            
+             The turtle itself is also represented on the GUI as a UIElement.
+            </summary>
+        </member>
+        <member name="F:ThinkLib.Turtle.VersionDate">
+            <summary>
+            The release date of this version of ThinkLib.
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.#ctor(System.Windows.Controls.Canvas,System.Double,System.Double)">
+            <summary>
+            Instantiate (create) a new turtle with the specifed parent Canvas, and the specified Home position.
+            </summary>
+            <param name="playground">The Canvas control that is the parent of the new turtle.</param>
+            <param name="homeX">Sets the X coordinate of the Home position of this turtle.</param>
+            <param name="homeY">Sets the Y coordinate of the Home position of this turtle.</param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Dispose">
+            <summary>
+            Remove the turtle and its lines and footprints from its playground.
+            This is implicitly called if the system garbage collects the turtle.
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.FlushToPlayground">
+            <summary>
+            The user can force drawing to be rendered by calling this method.
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.Forward(System.Double)">
+            <summary>
+            Move forward by the distance.  If the brush is down, a line is drawn.
+            </summary>
+            <param name="distance">The distance to move</param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Left(System.Double)">
+            <summary>
+            Turn the turtle to its left.
+            </summary>
+            <param name="degrees">Angle, in degrees</param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Right(System.Double)">
+            <summary>
+            Turn the turtle to its right
+            </summary>
+            <param name="degrees"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.WarpTo(System.Double,System.Double)">
+            <summary>
+            Go to absolute position (x,y) without drawing. 
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.WarpTo(System.Windows.Point)">
+            <summary>
+            Go to absolute position pos without drawing.  
+            </summary>
+            <param name="pos"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Goto(System.Double,System.Double)">
+            <summary>
+            Go to absolute position (x,y). Draw if the brush is down.  Equivalent to setting the turtle Position property.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Goto(System.Windows.Point)">
+            <summary>
+            Go to absolute position Pos. Draw if the brush is down.
+            </summary>
+            <param name="pos"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Clear">
+            <summary>
+            Erase all this turtle's drawing, footprints and text without changing position or heading, or any properties.
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.Reset">
+            <summary>
+            Clear all this turtle's drawing, footprints, and text. Set position to Home, heading to 0, make it visible, 
+            and set properties such as the BrushDown, TextFonts, Filling, and all Brush colours to their defaults.  
+            
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.SetAppearance(System.Windows.Media.Geometry,System.Windows.Media.Brush,System.Windows.Media.Brush)">
+            <summary>
+            Change the appearance of this turtle.  
+            </summary>
+            <param name="outlineShape">The outline shape of the turtle. The origin (0,0) of the geometry defines the "hot-spot" 
+            for positioning the turtle. If null is passed, the current TurtleGeometry is not changed.</param>
+            <param name="outlineBrush">The brush used to paint the outline. If null is passed, the current OutlineBrush is not 
+            changed.  Brushes.Transparent effectively suppresses drawing the outline shape.</param>
+            <param name="bodyBrush">The brush used to fill the interior.  If null is passed, the current BodyBrush is not changed.</param>
+        </member>
+        <member name="M:ThinkLib.Turtle.ResetAppearance">
+            <summary>
+            Reset the turtle's appearance to its default shape, outline brush, and body brush.
+            </summary>
+        </member>
+        <member name="M:ThinkLib.Turtle.GeometryFromPoints(System.Windows.Point[])">
+            <summary>
+            Given a list of points, return a WPF PathGeometry.  This is a helper method
+            that can be used to create a simple Geometry composed of straight lines.
+            </summary>
+            <param name="points"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.Turtle.SetFootprintOpacity(System.Double,System.Double)">
+            <summary>
+            Change the opacity of the footprint outline and body.
+            </summary>
+            <param name="outlineOpacity"></param>
+            <param name="bodyOpacity"></param>
+        </member>
+        <member name="M:ThinkLib.Turtle.Stamp">
+            <summary>
+            Leave a footprint at the current position.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.Turtle.Stamp(System.Windows.UIElement)">
+            <summary>
+            Stamp a uiElement at the current position, as a footprint.   The opacity settings for footprints are not applied here.
+            </summary>
+            <param name="theUIE"></param>
+            <returns>The Footprint that was created.</returns>
+        </member>
+        <member name="M:ThinkLib.Turtle.Stamp(System.Windows.Media.Geometry)">
+            <summary>
+            Stamp a user-defined Geometry at the current turtle position and heading 
+            using the current turtle properties for OutlineBrush, BrushWidth, Filling, etc.
+            The turtle's Heading and Position remain unchanged.
+            </summary>
+            <param name="geom"></param>
+            <returns>The Footprint that was created</returns>
+        </member>
+        <member name="M:ThinkLib.Turtle.Stamp(System.String,System.Double,System.Double,System.Boolean)">
+            <summary>
+            Stamp a string at the current position.
+            </summary>
+            <param name="str">The text to be written</param>
+            <param name="offsetX">Relative X offset of text from turtle's current position.</param>
+            <param name="offsetY">Relative X offset of text from turtle's current position.</param>
+            <param name="useRotation">If true, the text will rotate to the same heading as the turtle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ThinkLib.Turtle.ColorOfBackgroundAt(System.Windows.Point)">
+            <summary>
+            Returns a Color of the pixel at a given point in the playground.  This only works
+            if the background of the parent Canvas is a bitmap image.  In all other cases
+            (solid color canvas, gradient fills, etc.) the method will return Color.Transparent. 
+            </summary>
+            <param name="pt">The canvas position at which to extract the colour.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:ThinkLib.Turtle.Footprints" -->
+        <member name="P:ThinkLib.Turtle.Home">
+            <summary>
+            The turtle's home position. 
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.Position">
+            <summary>
+            Direct assignment to Position is equivalent to Goto(x, y) - i.e. a line is drawn if BrushDown.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.Heading">
+            <summary>
+            Heading, in degrees. 0 is facing East.  Positive angles rotate clockwise.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TextBrush">
+            <summary>
+            The brush used for stamping text
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TextFontFamily">
+            <summary>
+            The font used for stamping text
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TextFontSize">
+            <summary>
+            The font size used for stamping text
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TextFontStyle">
+            <summary>
+            The font style used for stamping text
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TextFontWeight">
+            <summary>
+            The font weight used for stamping text
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.LineBrush">
+            <summary>
+            The brush used for drawing the turtle's lines.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.OutlineBrush">
+            <summary>
+            The brush used for drawing the turtle's outline shape.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.BodyBrush">
+            <summary>
+            The brush used for drawing the interior of the turtle.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.FillBrush">
+            <summary>
+            Used for filling the interior of the multi-segment path drawn by the turtle. 
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.BrushWidth">
+            <summary>
+            Set the width of the brush strokes that the turtle leaves behind.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.Visible">
+            <summary>
+             Make the turtle visible or invisible.  This does not affect drawing or footprints.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.Filling">
+            <summary>
+            Turn filling on or off. What this means is determined by the fill algorithms of Microsoft's geometries.  
+            This can be quite a lot of fun.  
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.BrushDown">
+            <summary>
+            When true, the brush is down and the turtle draws when it moves.  Even when the 
+            brush is up, we can stamp footprints.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.ColorUnderTurtle">
+            <summary>
+            Returns a Color of the pixel in the bitmap under the turtle.  This only works
+            if the background of the parent Canvas is a bitmap image.  In all other cases
+            (solid color canvas, gradient fills, etc.) the method will return Color.Transparent. 
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.TurtleGeometry">
+            <summary>
+            Get or set the Geometry that defines the shape of the turtle.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.BatchSize">
+            <summary>
+            This controls the maximum number of turtle moves
+            before we force the playground to render.  When set to a large number you 
+            will get good speed, but your rendering will be done in jerky bursts.
+            A value of 0 means "never flush --- fastest spped."  But the canvas will 
+            only update when when the whole computation completes and the application 
+            becomes idle.   
+            When set to 1, (the default) you will flush the partial work after 
+            every drawing, turn or colour-change command.
+            </summary>
+        </member>
+        <member name="P:ThinkLib.Turtle.DelayMillisecs">
+            <summary>
+            Delay this number of milliseconds between each turtle drawing step.  The default, 0 is fastest.
+            Use this property to slow the turtle down if you want to watch the drawing pattern appear gradually
+            on the canvas.
+            </summary>
+        </member>
+        <member name="T:ThinkLib.xPopUp">
+            <summary>
+            xPopUp
+            </summary>
+        </member>
+        <member name="M:ThinkLib.xPopUp.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="RacingTurtle.RacingMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="650" Width="620" KeyDown="Window_KeyDown">
+    <Grid Margin="0,0,-104,-296">
+        <Canvas HorizontalAlignment="Left" Margin="10,10,0,0" Name="playground" VerticalAlignment="Top" Width="600" Height="600" >
+            <Canvas.Background>
+                <ImageBrush ImageSource="race_track.png"/>
+            </Canvas.Background>
+        </Canvas>
+
+    </Grid>
+</Window>

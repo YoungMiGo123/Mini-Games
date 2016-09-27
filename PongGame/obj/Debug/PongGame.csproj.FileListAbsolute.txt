@@ -1,0 +1,54 @@
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.exe
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.pdb
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongMainWindow.baml
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongMainWindow.g.cs
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\App.g.cs
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame_MarkupCompile.cache
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.g.resources
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.csproj.GenerateResource.Cache
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.exe
+C:\Users\p.wentworth\Documents\cs1_teaching\2015\ProgrammingII\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.exe.config
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\bin\Debug\PongGame.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongMainWindow.baml
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongMainWindow.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\App.g.cs
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame_MarkupCompile.cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.g.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.csproj.GenerateResource.Cache
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.exe
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.pdb
+D:\Documents\Teaching and Learning\CSc 102\Lectures\CS1DemosWeek1\PongGame\obj\Debug\PongGame.csprojResolveAssemblyReference.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.csprojResolveAssemblyReference.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongMainWindow.baml
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongMainWindow.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\App.g.cs
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame_MarkupCompile.cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.g.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.csproj.GenerateResource.Cache
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.exe
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.pdb
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\ThinkLib.dll
+C:\Users\Devan\Desktop\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame_Content.g.cs
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.exe.config
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.exe
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.pdb
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.exe
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\bin\Debug\PongGame.pdb
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.csprojResolveAssemblyReference.cache
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongMainWindow.baml
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongMainWindow.g.cs
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\App.g.cs
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame_Content.g.cs
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame_MarkupCompile.cache
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.g.resources
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.Properties.Resources.resources
+C:\Users\Devan\Desktop\Computer Science\ComSci Projects\Prac3_Skeleton_Modified\PongGame\obj\Debug\PongGame.csproj.GenerateResource.Cache

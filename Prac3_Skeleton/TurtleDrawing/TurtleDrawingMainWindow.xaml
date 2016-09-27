@@ -1,0 +1,9 @@
+﻿<Window x:Class="TurtleDrawing.TurtleDrawingMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" MouseMove="Window_MouseMove" >
+    <Grid>
+        <Canvas x:Name="playground" HorizontalAlignment="Stretch" Margin="50,50,50,50" VerticalAlignment="Stretch" Background="#FFCCFFE5" Cursor="None"/>
+
+    </Grid>
+</Window>
